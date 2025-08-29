@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/homebackg"
+    tools:context=".AdminHomeActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:text=" WELOCME \nEMPLOYEE"
+        android:textColor="#023D7C"
+        android:textSize="38dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADD PRODUCT"
+            android:textColor="@color/white"
+            android:backgroundTint="#250BB8"
+            android:id="@+id/addpoductbtn"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VIEW PRODUCT"
+            android:textColor="@color/white"
+            android:backgroundTint="#250BB8"
+            android:id="@+id/viewpoductbtn"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/addadminbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            android:backgroundTint="#250BB8"
+            android:text="ADD new admin" />
+
+        <Button
+            android:id="@+id/adminstock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#250BB8"
+            android:textColor="@color/white"
+            android:text="current Stocks" />
+
+        <Button
+            android:id="@+id/Userlist"
+            android:layout_width="162dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#250BB8"
+            android:textColor="@color/white"
+            android:text="User  list" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="100dp"
+            android:backgroundTint="#250BB8"
+            android:textColor="@color/white"
+            android:id="@+id/adminhomelogoutbtn"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/backg"
+    android:padding="16dp"
+    tools:context=".UserLoginActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="USER LOGIN"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:layout_marginTop="-70dp"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/usernameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Username"
+        android:inputType="text"
+        android:textColorHint="@color/black"/>
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textColorHint="@color/black"
+        android:inputType="textPassword"
+        android:layout_below="@id/usernameEditText"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_below="@id/passwordEditText"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/registerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textColor="@color/black"
+        android:layout_below="@id/loginButton"
+        android:layout_marginBottom="26dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/registerloginTextView"
+        android:layout_width="171dp"
+        android:layout_height="34dp"
+        android:layout_below="@+id/registerTextView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="129dp"
+        android:layout_marginTop="98dp"
+        android:layout_marginEnd="95dp"
+        android:text="  ADMIN LOGIN"
+        android:textColor="@color/black"
+        android:textSize="16dp" />
+
+
+</RelativeLayout>

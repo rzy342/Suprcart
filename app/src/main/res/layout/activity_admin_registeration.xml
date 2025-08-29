@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@drawable/backg"
+    tools:context=".AdminRegisterationActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="         ADMIN \nREGISTERATION"
+        android:textSize="40dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="-110dp"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:id="@+id/usernameEditText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:inputType="text"
+        android:textColorHint="@color/black"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/passwordEditText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textColorHint="@color/black"
+        android:inputType="textPassword"
+        android:layout_below="@id/usernameEditText3"
+        android:layout_marginBottom="16dp" />
+    <EditText
+        android:id="@+id/emailEditText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/black"
+        android:layout_below="@id/passwordEditText3"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/phonenoEditText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number"
+        android:inputType="number"
+        android:maxLength="10"
+        android:textColorHint="@color/black"
+        android:layout_below="@id/emailEditText3"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/registerButton3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_below="@id/phonenoEditText3"
+        android:layout_marginBottom="16dp" />
+
+</RelativeLayout>

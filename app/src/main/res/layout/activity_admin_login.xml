@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminLoginActivity"
+    android:background="@drawable/backg"
+    android:gravity="center"
+    android:padding="16dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADMIN LOGIN"
+        android:textSize="40dp"
+        android:layout_marginTop="-70dp"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/usernameEditText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Username"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:id="@+id/passwordEditText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_below="@id/usernameEditText2"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/loginButton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_below="@id/passwordEditText2"
+        android:layout_marginBottom="16dp" />
+
+
+</RelativeLayout>
